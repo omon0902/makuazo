@@ -1,0 +1,19 @@
+@import url(../../../https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+
+
+
+#ext_menu-0 .navbar-toggler {
+  color: #ffffff;
+}
+#ext_menu-0 .navbar-brand {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+#ext_menu-0 .navbar-nav .btn {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+#ext_menu-0 .nav-link {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+#footer1-2 P {
+  text-align: center;
+}
