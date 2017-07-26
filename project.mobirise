@@ -1,22 +1,175 @@
 {
   "settings": {
-    "name": "Nigerian Professionals in Manitoba",
-    "currentPage": "index.html",
+    "currentPage": "signup.branched.co",
+    "name": "Branched",
     "theme": {
-      "name": "purity",
-      "title": "PurityM",
-      "styling": {}
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#131f28",
+        "secondaryColor": "#131f28",
+        "successColor": "#efefef",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Roboto Condensed",
+        "subtitleFont": "Roboto Condensed",
+        "textFont": "Roboto Condensed",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 3,
+    "uniqCompNum": 10,
     "versionPublish": "4.0.12",
     "favicon": "",
     "noImageResize": "",
-    "google-analytics": "",
-    "cookiesAlert": ""
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
-    "index.html": {
+    "page1.html": {
+      "settings": {
+        "title": "Website Builder Title",
+        "meta_descr": "Website Builder Description"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "30px",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-family": "'Roboto Condensed', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.85rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.921rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#030405"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#0e171e!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#131f28"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#131f28!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#131f28",
+            "fontSize": "0.85",
+            "fontName": {
+              "name": "Roboto Condensed",
+              "url": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "css": "'Roboto Condensed', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/branched-logo-128x128.jpg",
+              "height": 128,
+              "alt": "Branched",
+              "link": "https://pbs.twimg.com/profile_images/862628392197177344/w2jbod-7_400x400.jpg",
+              "title": "Sign Upp for Branched",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://blog.branched.co\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">branched</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.instagram.com/branched_infl/\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.linkedin.com/company/branchedinfluence\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://twitter.com/branched_infl\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"mailto:branchedinfluencer@gmail.com\"><span class=\"mbri-letter mbr-iconfont mbr-iconfont-btn\"></span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-3",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/video-bg-2000x1122.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#131f28",
+            "overlayOpacity": "0.7"
+          },
+          "title": "FULL SCREEN INTRO",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.<br><br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">GET ME READY</a>  "
+        }
+      ]
+    },
+    "signup.branched.co": {
       "settings": {
         "main": true,
         "title": "",
@@ -27,47 +180,82 @@
       },
       "components": [
         {
-          "_inherit": "menu",
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "ext.menu",
           "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-size": "30px"
+            },
             ".navbar-toggler": {
               "color": "#ffffff"
             },
-            ".navbar-brand": {
-              "font-family": "'Roboto Condensed', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
             },
-            ".navbar-nav .btn": {
-              "font-family": "'Roboto Condensed', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
             },
-            ".nav-link": {
-              "font-family": "'Roboto Condensed', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#030405"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#0e171e!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#131f28"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#131f28!important"
             }
           },
-          "_anchor": "ext_menu-0",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-7",
           "_params": {
             "logo": true,
             "showBrand": true,
-            "showButtons": false,
+            "hideButtons": true,
             "sticky": true,
             "collapsed": true,
             "transparent": true,
-            "color": "#072807",
-            "hamburgerColor": "#ffffff"
+            "bgColor": "#131f28",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/npm-logo-colour-name-white-496x128.png",
+              "src": "@PROJECT_PATH@/assets/images/logo-leaf-128x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "https://branched.co",
               "title": "",
               "linkInNewWindow": false
             },
@@ -77,65 +265,52 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-brand text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-white-outline btn-white\" data-app-selector=\".navbar-nav .btn\" href=\"https://mobirise.com\">Download</a></li>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\"></a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"http://nigerianprofessionalsmb.org/About_Us.html\">About</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"http://nigerianprofessionalsmb.org/membership.html\">Membership</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"http://nigerianprofessionalsmb.org/\">Events</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"http://nigerianprofessionalsmb.org/contact_us.html\">Contact</a></li> "
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://blog.branched.co\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">branched</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.instagram.com/branched_infl/\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.linkedin.com/company/branchedinfluence\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://twitter.com/branched_infl\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"mailto:branchedinfluencer@gmail.com\"><span class=\"mbri-letter mbr-iconfont mbr-iconfont-btn\"></span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
           "_name": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_anchor": "header1-1",
           "_params": {
             "showTitle": true,
-            "showText": false,
+            "showText": true,
             "showButtons": true,
-            "showArrow": true,
+            "showArrow": false,
             "contentAlign": "center",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-1.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/city-marketing-lights-night-2000x1317.jpg",
             "parallax": true,
             "bgColorRadio": false,
-            "bgColor": "#fff8e0",
+            "bgColor": "#a07e49",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#052805",
-            "overlayOpacity": 0.5
+            "overlayColor": "#000",
+            "overlayOpacity": "0.7"
           },
-          "title": "Nigerian Professionals in Manitoba",
-          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"http://nigerianprofessionalsmb.org/\" data-toolbar=\"-mbrBtnMove\">Enter</a>  "
+          "title": "",
+          "text": "We heard that the advertising industry is dying. <br>We said, NO.<br>The FUTURE of advertising is here.\u001b<br>Are you READY?<br>",
+          "buttons": "     <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://docs.google.com/forms/d/e/1FAIpQLServFLcCbCgInUFEGs95XFZTUGgyEBWAXA-2gHrC8DZPOhgdQ/viewform\" data-toolbar=\"-mbrBtnMove\">GET READY WITH US</a> "
         },
         {
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
           "_name": "footer1",
           "_anchor": "footer1-2",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": 2,
+            "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#072807",
+            "bgColor": "#131f28",
             "overlay": true,
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2017 Nigerian Professionals in Manitoba. <a href=\"https://mobirise.com/\" class=\"text-white\">Terms of Use</a>  | <a href=\"https://mobirise.com/\" class=\"text-white\">Privacy Policy</a>",
-          "_styles": {
-            "P": {
-              "text-align": "center"
-            }
-          }
+          "text": "Copyright (c) 2017 BRANCHED INC."
         }
       ]
     }
